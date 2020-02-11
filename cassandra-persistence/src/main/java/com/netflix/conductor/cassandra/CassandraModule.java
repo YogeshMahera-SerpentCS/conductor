@@ -15,8 +15,8 @@ package com.netflix.conductor.cassandra;
 import com.datastax.driver.core.Cluster;
 import com.datastax.driver.core.Session;
 import com.google.inject.AbstractModule;
-import com.netflix.conductor.dao.cassandra.CassandraExecutionDAO;
 import com.netflix.conductor.dao.ExecutionDAO;
+import com.netflix.conductor.dao.cassandra.CassandraExecutionDAO;
 
 public class CassandraModule extends AbstractModule {
 
